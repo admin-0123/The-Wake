@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: norse;
+  src: url(../font/Norse-Bold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: gibson;
+  src: url(../font/Gibson-Bold.ttf);
+  /* font-weight: bold; */
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.text-primary {
+  color: #9f0d08;
+}
+
+/* Begin: Main primary button css */
+
+.primary-button {
+  background-image: url("../image/button.png");
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+  font-family: norse;
+}
+
+.primary-button::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 150%;
+  background-image: url("../image/button_back.png");
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+
+.primary-button:hover::after {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+/* End: Main primary button css */
+
+#header {
+  font-family: norse;
+}
+
+#banner {
+  font-family: norse;
+  height: calc(100vh - 3rem);
+}
+
+#banner video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.banner-item-group {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.banner-item {
+  height: 5rem;
+}
+
+/* Begin : Explorer section */
+
+#explorer {
+  background-image: url(../image/section_bac.jpg);
+  background-size: auto;
+  font-family: gibson;
+}
+
+/* End : Explorer section */
+
+/* Begin : Advertise section */
+
+#advertise {
+  background-image: url(../image/section_4_back.jpg);
+  /* background-size: 100% 100%; */
+  font-family: gibson;
+  object-fit: cover;
+}
+
+#advertise-left {
+  background-image: url(../image/section_3_item.png);
+  background-size: 100% 100%;
+}
+
+#advertise-right {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+/* End : Advertise section */
+
+/* Begin : Advertise section */
+
+#team {
+  background-image: url(../image/section_bac.jpg);
+  background-size: auto;
+  font-family: gibson;
+}
+
+/* End : Advertise section */
+
+/* Begin: Team section */
+
+/* .photo-wrapper::after {
+  content: "m";
+  background-image: url(../image/photo_wrapper.png);
+  background-size: 100% 100%;
+} */
+
+.photo-wrapper {
+  position: relative;
+}
+
+.photo-wrapper::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 53%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  width: 114%;
+  height: 114%;
+  background-image: url("../image/photo_wrapper.png");
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+.image-wrapper_temp {
+  position: relative;
+}
+
+.image-wrapper_temp::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 53%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  width: 114%;
+  height: 114%;
+  background-image: url("../image/photo_wrapper.png");
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 53%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+
+  width: 114%;
+  height: 114%;
+  background-image: url("../image/image_wrapper_2.png");
+  background-size: 95% 95%;
+  background-repeat: no-repeat;
+}
+
+/* End: Team section */
+
+/* Begin: Community Section */
+#community {
+  background-image: url(../image/section_bac.jpg);
+  background-size: auto;
+  font-family: gibson;
+}
+
+#community-left {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+/* End: Community Section */
+
+/* Begin : Sponsor component */
+
+#sponsor {
+  background-color: black;
+}
+
+/* End : Sponsor component */
+
+/* Begin: Swiper component */
+
+#carousel {
+  background-image: url(../image/section_bac.jpg);
+  background-size: auto;
+  position: relative;
+  font-family: gibson;
+}
+
+#carousel::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -3px;
+  background-image: url(../image/line.png);
+  background-repeat: no-repeat;
+}
+
+/* End: Swiper component */
+
+
