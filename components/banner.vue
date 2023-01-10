@@ -6,7 +6,7 @@
         type="video/mp4"
       />
     </video>
-
+    
     <div class="text-center">
       <p class="text-primary text-5xl mb-4 sm:text-7xl">BUILD. DEFEAT. EARN</p>
       <p class="text-white-800 text-3xl mb-16 sm:text-4xl">TRY OUR DEMOS NOW!</p>
