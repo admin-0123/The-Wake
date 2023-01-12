@@ -1,14 +1,14 @@
 <template>
   <div id="carousel" class="py-16">
     <div class="title text-center">
-      <p class="text-5xl">Who are you? God or Human...</p>
+      <p class="text-5xl gibsonbold">Who are you? God or Human...</p>
       <img
         src="~/assets/image/section_line.png"
         alt="Line"
         class="m-auto my-2"
       />
-      <div class="flex justify-center">
-        <p class="text-md text-gray-600 mx-4 w-4/5  sm:w-3/5">In the land of gods, the bravest heroes are called to defend the realms from the forces of darkness. Join THE WAKE and become a hero of Norse mythology as you flight alongside legendary figures and explore the vast world of the Nine Realms.</p>
+      <div class="flex justify-center gibson">
+        <p class="text-md text-gray-800 mx-4 w-4/5 sm:w-3/5">In the land of gods, the bravest heroes are called to defend the realms from the forces of darkness. Join <span class="gibsonbold">THE WAKE</span> and become a hero of Norse mythology as you flight alongside legendary figures and explore the vast world of the Nine Realms.</p>
       </div>
     </div>
     <swiper

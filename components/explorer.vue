@@ -10,8 +10,8 @@
           />
         </div>
 
-        <p class="text-2xl my-8">Ready to jump in Norse Myth</p>
-        <p class="text-gray-600">
+        <p class="text-2xl my-8 gibsonbold">Ready to jump in Norse Myth</p>
+        <p class="text-gray-800 gibson">
           He was aware that he had opened his eyes in a state of obscurity.
           Neither the surroundings nor the people were familiar to him. He
           couldn`t remember anything about himself of his past. The thick fog
@@ -20,7 +20,7 @@
           about himself and his story; his adventure to discover began from the
           very first moment he opened his eyes...
         </p>
-        <button class="primary-button px-24 py-4 my-4">Explorer</button>
+        <button class="primary-button tracking-widest text-2xl px-24 py-4 my-4">Explorer</button>
       </div>
       <div class="explorer-right">
         <img

@@ -1,14 +1,14 @@
 <template>
   <div id="team">
     <div class="text-center py-24">
-      <p class="text-5xl">Team and Experience</p>
-      <p class="text-lg text-gray-700">30+ YEARS COMBINED OF WEB2 GAMING</p>
+      <p class="text-5xl gibsonbold">Team and Experience</p>
+      <p class="text-lg text-gray-700 gibson">30+ YEARS COMBINED OF WEB2 GAMING</p>
       <img
         src="~/assets/image/section_line.png"
         alt="Line"
         class="m-auto my-2"
       />
-      <div class="grid grid-cols-4 gap-x-16 gap-y-0 mx-0 sm:mx-56 my-16">
+      <div class="grid grid-cols-4 gap-x-16 gap-y-0 mx-0 sm:mx-56 my-16 gibson">
         <div class="col-span-4 sm:col-span-1 mx-12 sm:mx-0">
           <div class="photo-wrapper">
             <img

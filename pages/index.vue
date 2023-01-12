@@ -13,4 +13,8 @@
   <Sponsor />
   <!-- Community component -->
   <Community />
+  <!-- Partners component -->
+  <Partners />
+  <!-- Footer component -->
+  <Footer />
 </template>

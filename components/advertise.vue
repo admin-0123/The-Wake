@@ -7,8 +7,8 @@
         </div>
       </div>
       <div class="col-span-1 sm:col-span-1 mx-10 sm:mx-0" id="advertise-right">
-        <p class="text-7xl text-white">EXPLORER</p>
-        <p class="text-white my-4">
+        <p class="text-5xl sm:text-7xl text-white gibsonbold">EXPLORER</p>
+        <p class="text-gray-300 my-4 gibson">
           There are nine realms in The Wake: Niflheim, Muspelheim, Asgard,
           Midgard, Jotunheim, Vanaheim, Alfheim, Svatalfheim, Helheim. The nine
           worlds in Norse mythology are held in branches and roots of the world

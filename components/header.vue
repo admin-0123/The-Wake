@@ -53,29 +53,30 @@
             type="button"
             class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
-            <font-awesome-icon icon="fa-brands fa-twitter" />
+            <font-awesome-icon class="text-xl" icon="fa-brands fa-twitter" />
           </button>
 
           <button
             type="button"
             class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
-            <font-awesome-icon icon="fa-brands fa-facebook" />
+            <font-awesome-icon class="text-xl" icon="fa-brands fa-discord" />
           </button>
 
           <button
             type="button"
             class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
-            <font-awesome-icon icon="fa-brands fa-youtube" />
+            <font-awesome-icon class="text-xl" icon="fa-brands fa-telegram" />
           </button>
 
           <button
             type="button"
             class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
-            <font-awesome-icon icon="fa-brands fa-discord" />
+            <font-awesome-icon class="text-xl" icon="fa-brands fa-youtube" />
           </button>
+
 
           <!-- Profile dropdown -->
           <!-- class="relative inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" -->

@@ -3,21 +3,27 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: norse;
-  src: url(../font/Norse-Bold.woff);
-  font-weight: bold;
+  font-family: "NorseBold";
+  src: url(../font/Norsebold.otf);
 }
 
 @font-face {
-  font-family: gibson;
-  src: url(../font/Gibson-Bold.ttf);
-  /* font-weight: bold; */
+  font-family: "Norse";
+  src: url(../font/Norse.otf);
 }
 
+@font-face {
+  font-family: "Gibson";
+  src: url(../font/gibson/gibson-regular.otf);
+}
 
+@font-face {
+  font-family: "GibsonBold";
+  src: url(../font/gibson/gibson-bold.otf);
+}
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +41,7 @@ body {
   background-size: 100% 100%;
   color: white;
   position: relative;
-  font-family: norse;
+  font-family: Norsebold;
 }
 
 .primary-button::after {
@@ -61,11 +67,12 @@ body {
 /* End: Main primary button css */
 
 #header {
-  font-family: norse;
+  font-family: Norsebold;
 }
 
 #banner {
-  font-family: norse;
+  font-family: Norsebold !important;
+  font-weight: bold;
   height: calc(100vh - 3rem);
 }
 
@@ -96,7 +103,6 @@ body {
 #explorer {
   background-image: url(../image/section_bac.jpg);
   background-size: auto;
-  font-family: gibson;
 }
 
 /* End : Explorer section */
@@ -106,7 +112,6 @@ body {
 #advertise {
   background-image: url(../image/section_4_back.jpg);
   /* background-size: 100% 100%; */
-  font-family: gibson;
   object-fit: cover;
 }
 
@@ -128,7 +133,6 @@ body {
 #team {
   background-image: url(../image/section_bac.jpg);
   background-size: auto;
-  font-family: gibson;
 }
 
 /* End : Advertise section */
@@ -200,7 +204,6 @@ body {
 #community {
   background-image: url(../image/section_bac.jpg);
   background-size: auto;
-  font-family: gibson;
 }
 
 #community-left {
@@ -224,7 +227,7 @@ body {
   background-image: url(../image/section_bac.jpg);
   background-size: auto;
   position: relative;
-  font-family: gibson;
+  /* font-family: GibsonBold; */
 }
 
 #carousel::after {
@@ -239,4 +242,40 @@ body {
 
 /* End: Swiper component */
 
+.gibson {
+  font-family: "Gibson";
+}
+
+.gibsonbold {
+  font-family: "GibsonBold";
+}
+
+.norse {
+  font-family: "Norse";
+}
+
+.norsebold {
+  font-family: "Norsebold";
+}
+
+/* Begin: Partners component */
+
+#partners {
+  background-image: url(../image/section_bac.jpg);
+  background-size: auto;
+}
+
+
+/* End: Partners component */
+
+/* Begin : Footer component */
+
+#footer {
+  background-color: black;
+}
+
+#footer_logo {
+  top: -50px;
+}
+/* End : Footer component */
 

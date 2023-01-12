@@ -8,26 +8,26 @@
     </video>
     
     <div class="text-center">
-      <p class="text-primary text-5xl mb-4 sm:text-7xl">BUILD. DEFEAT. EARN</p>
-      <p class="text-white-800 text-3xl mb-16 sm:text-4xl">TRY OUR DEMOS NOW!</p>
+      <p class="text-primary text-5xl mb-4 sm:text-7xl font-bold">BUILD. DEFEAT. EARN</p>
+      <p class="text-white-800 text-3xl mb-16 sm:text-4xl tracking-widest">TRY OUR DEMOS NOW!</p>
       <div class="flex">
         <div class="mx-6 banner-item-group">
-          <p class="py-2 text-lg">BE THE WIZARD</p>
+          <p class="py-2 text-lg sm:text-2xl tracking-widest">BE THE WIZARD</p>
           <img
             src="~/assets/image/text_logo1.png"
             class="banner-item"
             alt="pre-alpha"
           />
-          <button class="primary-button px-10 py-1 mt-3 sm:px-20 sm:py-3">DOWNLOAD</button>
+          <button class="primary-button text-sm sm:text-2xl tracking-widest px-10 py-1 mt-3 sm:px-20 sm:py-3">DOWNLOAD</button>
         </div>
         <div class="mx-6 banner-item-group">
-          <p class="py-2 text-lg">BE THE WIZARD</p>
+          <p class="py-2 text-lg sm:text-2xl tracking-widest">BE THE WIZARD</p>
           <img
             src="~/assets/image/text_logo2.png"
             class="banner-item"
             alt="pre-alpha"
           />
-          <button class="primary-button px-10 py-1 mt-3 sm:px-20 sm:py-3">DOWNLOAD</button>
+          <button class="primary-button text-sm sm:text-2xl tracking-widest px-10 py-1 mt-3 sm:px-20 sm:py-3">DOWNLOAD</button>
         </div>
       </div>
     </div>
