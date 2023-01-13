@@ -1,5 +1,5 @@
 <template>
-  <div id="carousel" class="py-16">
+  <div id="carousel" class="py-10 sm:py-16">
     <div class="title text-center">
       <p class="text-5xl gibsonbold">Who are you? God or Human...</p>
       <img

@@ -1,7 +1,7 @@
 <template>
   <div id="explorer">
-    <div class="grid grid-cols-1 sm:grid-cols-2 pt-20">
-      <div class="explorer-left mx-10 sm:ml-[120px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 sm:pt-16">
+      <div class="explorer-left text-center sm:text-left mx-5 sm:ml-[120px]">
         <div class="image-wrapper_temp w-full sm:w-10/12">
           <img
             src="~/assets/image/item1.jpg"
