@@ -1,5 +1,5 @@
 <template>
-  <div id="banner" class="px-0 sm:px-20 text-white flex items-center">
+  <div id="banner" class="px-0 pb-12 sm:pb-auto sm:px-20 text-white flex items-end sm:items-center">
     <video id="vid" autoplay muted>
       <source
         src="~/assets/image/main_bg_video_compress.mp4"

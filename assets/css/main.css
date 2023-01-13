@@ -73,7 +73,7 @@ body {
 #banner {
   font-family: Norsebold !important;
   font-weight: bold;
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 1rem);
 }
 
 #banner video {
