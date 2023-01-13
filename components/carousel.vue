@@ -28,50 +28,30 @@
       class="mySwiper"
     >
       <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
+        <img src="~/assets/image/slider/card1.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
         <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
+        <img src="~/assets/image/slider/card2.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
         <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
+        <img src="~/assets/image/slider/card3.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
         <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
+        <img src="~/assets/image/slider/card4.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
         <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
+        <img src="~/assets/image/slider/card5.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
         <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
-        <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
-        <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
-        <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/slider_1.jpg" />
-        <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
-      </swiper-slide>
+      </swiper-slide>   
     </swiper>
   </div>
 </template>
