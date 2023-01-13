@@ -5,7 +5,7 @@
       <img
         src="~/assets/image/section_line.png"
         alt="Line"
-        class="m-auto my-2"
+        class="m-auto my-2  mb-[42px]"
       />
       <div class="flex justify-center gibson">
         <p class="text-md text-gray-800 mx-4 w-4/5 sm:w-3/5">In the land of gods, the bravest heroes are called to defend the realms from the forces of darkness. Join <span class="gibsonbold">THE WAKE</span> and become a hero of Norse mythology as you flight alongside legendary figures and explore the vast world of the Nine Realms.</p>
@@ -30,27 +30,27 @@
       <swiper-slide>
         <img src="~/assets/image/slider/card1.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
+        <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
         <img src="~/assets/image/slider/card2.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
+        <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
         <img src="~/assets/image/slider/card3.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
+        <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
         <img src="~/assets/image/slider/card4.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
+        <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>
       <swiper-slide>
         <img src="~/assets/image/slider/card5.jpg" />
         <p class="absolute top-0 left-0 bg-red-600 rounded text-white py-2 px-6">December</p>
-        <button class="absolute bottom-10 right-5 bg-red-600 hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
+        <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button>
       </swiper-slide>   
     </swiper>
   </div>
