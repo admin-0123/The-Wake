@@ -1,9 +1,9 @@
 <template>
   <div id="community">
     <div class="grid grid-cols-1 sm:grid-cols-2 py-24">
-      <div class="mx-2 sm:mx-24" id="community-left">
-        <p class="text-5xl sm:text-6xl tracking-widest my-2 gibsonbold">COMMUNITY</p>
-        <p class="my-2 text-lg text-gray-700 gibson">
+      <div class="mx-8 sm:ml-48" id="community-left">
+        <p class="text-4xl sm:text-6xl tracking-widest my-2 gibsonbold">COMMUNITY</p>
+        <p class="my-2 text-sm sm:text-lg text-gray-700 gibson">
           The Wake is still growing, and the community is an important part of
           the development. Join the fanbase by following our social channels,
           joining our Discord, or signing up for our official newsletter.
@@ -25,9 +25,9 @@
           joining our Discord, or signing up for our official newsletter.
         </p>
         <div class="my-2">
-          <button class="primary-button gibson text-md pl-6 pr-8 sm:pr-32 py-2 text-left">e.g yourname@example.com</button>
+          <button class="primary-button-white gibson text-md pl-6 pr-8 sm:pr-32 py-2 text-left">e.g yourname@example.com</button>
         </div>
-        <div class="my-2"><button class="primary-button gibson text-lg px-8 py-2">SIGN UP</button></div>
+        <div class="my-2"><button class="primary-button-white gibsonbold text-lg px-8 py-2">SIGN UP</button></div>
         <p class="text-2xl sm:text-4xl mt-8 gibsonbold">NEWSLETTER</p>
         <p class="my-2 text-lg text-gray-700 gibson">
           The Wake is still growing, and the community is an important part of
@@ -35,9 +35,9 @@
           joining our Discord, or signing up for our official newsletter.
         </p>
         <div class="my-2">
-          <button class="primary-button text-md pl-6 gibson pr-8 sm:pr-32 py-2 text-left">e.g yourname@example.com</button>
+          <button class="primary-button-white text-md pl-6 gibson pr-8 sm:pr-32 py-2 text-left">e.g yourname@example.com</button>
         </div>
-        <div class="my-2"><button class="primary-button gibson text-lg px-8 py-2">SIGN UP</button></div>
+        <div class="my-2"><button class="primary-button-white gibsonbold text-lg px-8 py-2">SIGN UP</button></div>
       </div>
       <div class="my-2">
         <img src="~/assets/image/sec_4_item.png" class="w-full h-full" alt="Community Icons">

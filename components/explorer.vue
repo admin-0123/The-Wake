@@ -1,14 +1,16 @@
 <template>
   <div id="explorer">
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:pt-16">
-      <div class="explorer-left text-center sm:text-left mx-5 sm:ml-[120px]">
-        <div class="image-wrapper_temp w-full sm:w-10/12">
+      <div class="explorer-left text-center sm:text-left mx-5 sm:ml-48">
+      <div class="flex justify-center sm:justify-start">
+        <div class="image-wrapper_temp w-11/12 sm:w-10/12">
           <img
             src="~/assets/image/item1.jpg"
             class="w-full"
             alt="Explorer item"
           />
         </div>
+      </div>  
 
         <p class="text-2xl mt-[30px] mb-[20px] gibsonbold">Ready to jump in Norse Myth</p>
         <p class="text-gray-800 gibson">
@@ -20,7 +22,7 @@
           about himself and his story; his adventure to discover began from the
           very first moment he opened his eyes...
         </p>
-        <button class="primary-button tracking-widest text-2xl px-20 py-4 my-4">Explorer</button>
+        <button class="primary-button-white tracking-widest text-2xl px-20 py-4 my-4">Explorer</button>
       </div>
       <div class="explorer-right">
         <img

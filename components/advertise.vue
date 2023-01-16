@@ -6,7 +6,7 @@
           <img src="~/assets/image/section_3_item.jpg" alt="Section 3 Item" />
         </div>
       </div>
-      <div class="col-span-1 sm:col-span-2 mx-10 sm:mx-0 pr-24" id="advertise-right">
+      <div class="col-span-1 sm:col-span-2 mx-10 sm:mx-0 pr-0 sm:pr-24" id="advertise-right">
         <p class="text-5xl sm:text-7xl text-white gibsonbold">EXPLORER</p>
         <p class="text-gray-300 mt-4 mb-12 gibson">
           There are nine realms in The Wake: Niflheim, Muspelheim, Asgard,
