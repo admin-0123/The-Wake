@@ -235,9 +235,9 @@ body {
   left: 53%;
   top: 53%;
   transform: translate(-50%, -50%);
-  width: 114%;
-  height: 114%;
-  background-image: url("../image/photo_wrapper.png");
+  width: 115%;
+  height: 115%;
+  background-image: url("../image/photo_wrapper_temp.png");
   background-size: 95% 95%;
   background-repeat: no-repeat;
 }

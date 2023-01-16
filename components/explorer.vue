@@ -3,14 +3,17 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:pt-16">
       <div class="explorer-left text-center sm:text-left mx-5 sm:ml-48">
       <div class="flex justify-center sm:justify-start">
-        <div class="image-wrapper_temp w-11/12 sm:w-10/12">
-          <img
-            src="~/assets/image/item1.jpg"
-            class="w-full"
-            alt="Explorer item"
-          />
+        <div class="image-wrapper_temp w-11/12 sm:w-10/12">          
+          <video autoplay muted class="image-wrapper_temp w-full">       
+            <source
+              src="~/assets/image/ambassador_framless.mp4"
+              type="video/mp4"
+              class="w-full"
+              alt="Explorer item"
+            />
+        </video>
         </div>
-      </div>  
+      </div>
 
         <p class="text-2xl mt-[30px] mb-[20px] gibsonbold">Ready to jump in Norse Myth</p>
         <p class="text-gray-800 gibson">
