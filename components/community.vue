@@ -11,37 +11,37 @@
           newsletter for the latest updates and news.
         </p>
         <div class="flex my-2">
-          <a href="https://twitter.com/Twakegame">
+          <a href="https://twitter.com/Twakegame" target="_blank">
             <button>
               <font-awesome-icon class="text-2xl m-2" icon="fa-brands fa-twitter" />
             </button>
           </a>
 
-          <a href="https://t.me/thewakegame">
+          <a href="https://t.me/thewakegame" target="_blank">
             <button>
               <font-awesome-icon class="text-2xl m-2" icon="fa-brands fa-telegram" />
             </button>
           </a>
 
-          <a href="http://discord.gg/nwtq7AZjsy">
+          <a href="http://discord.gg/nwtq7AZjsy" target="_blank">
             <button>
               <font-awesome-icon class="text-2xl m-2" icon="fa-brands fa-discord" />
             </button>
           </a>
 
-          <a href="https://www.linkedin.com/company/thewakegame/">
+          <a href="https://www.linkedin.com/company/thewakegame/" target="_blank">
             <button>
               <font-awesome-icon class="text-2xl m-2" icon="fa-brands fa-linkedin-in" />
             </button>
           </a>
 
-          <a href="http://youtube.com/@thewake1649">
+          <a href="http://youtube.com/@thewake1649" target="_blank">
             <button>
               <font-awesome-icon class="text-2xl m-2" icon="fa-brands fa-youtube" />
             </button>
           </a>
 
-          <a href="http://twitch.tv/thewakegame">
+          <a href="http://twitch.tv/thewakegame" target="_blank">
             <button>
               <font-awesome-icon class="text-2xl m-2" icon="fa-brands fa-twitch" />
             </button>
