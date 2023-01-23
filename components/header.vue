@@ -1,6 +1,6 @@
 <template>
   <Disclosure as="nav" id="header" class="fixed w-full z-10 bg-black" v-slot="{ open }">
-    <div class="mx-1 sm:px-6 lg:px-8">
+    <div class="mx-1 sm:px-6 lg:px-8 p-1">
       <div class="relative flex items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -49,44 +49,39 @@
         <div
           class="hidden sm:block absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
-          <button
-            type="button"
-            class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+          <a
+            href="https://twitter.com/Twakegame" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-twitter" />
-          </button>
+          </a>
 
-          <button
-            type="button"
-            class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+          <a            
+            href="http://discord.gg/nwtq7AZjsy" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-discord" />
-          </button>
+          </a>
 
-          <button
-            type="button"
-            class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+          <a            
+            href="https://t.me/thewakegame" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-telegram" />
-          </button>
+          </a>
 
-          <button
-            type="button"
-            class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+          <a
+            href="http://youtube.com/@thewake1649" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-youtube" />
-          </button>
-
+          </a>
 
           <!-- Profile dropdown -->
           <!-- class="relative inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" -->
-          <button type="button" class="primary-button ml-4 px-4 py-1">
-            <span>BE AMBASSADOR</span>
-          </button>
-
-          <button type="button" class="primary-button ml-4 px-4 py-1">
-            <span>JOIN THE TOURNAMENT</span>
-          </button>
+          
+          <a href="" class="primary-button ml-4 px-4 py-2">
+            <span>BECOME AMBASSADOR</span>
+          </a>
+          <a href="https://forms.gle/cfpWisFSEzBhw8WJ6" target="_blank" class="primary-button ml-4 px-4 py-2">
+            <span>REGISTER THE TOURNAMENT</span>
+          </a>
         </div>
       </div>
     </div>
@@ -142,11 +137,11 @@
       <!-- Profile dropdown -->
       <div class="flex pt-4 pb-8">
         <button type="button" class="primary-button ml-4 px-4 py-1">
-          <span>BE AMBASSADOR</span>
+          <span>BECOME AMBASSADOR</span>
         </button>
 
         <button type="button" class="primary-button ml-4 px-4 py-1">
-          <span>JOIN THE TOURNAMENT</span>
+          <span>REGISTER THE TOURNAMENT</span>
         </button>
       </div>
     </DisclosurePanel>
@@ -168,8 +163,9 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 const navigation = [
   { name: "HOME", href: "#", current: true },
   { name: "NEWS", href: "#carousel", current: false },
-  { name: "GAMEPLAY", href: "#explorer", current: false },
-  { name: "WHITEPAPER", href: "#advertise", current: false },
+  { name: "ABOUT", href: "#explorer", current: false },
+  { name: "EXPLORER", href: "#advertise", current: false },
   { name: "TEAM", href: "#team", current: false },
+  { name: "PARTNERS", href: "#partners", current: false },
 ];
 </script>

@@ -22,6 +22,11 @@
   src: url(../font/gibson/gibson-bold.otf);
 }
 
+@font-face {
+  font-family: "GibsonSemiBold";
+  src: url(../font/gibson/gibson-semibold.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -104,6 +109,11 @@ body {
   opacity: 1;
 }
 
+.primary-button-white::placeholder {
+  color: white;
+}
+
+
 /* End: Main primary button css */
 
 #header {
@@ -182,7 +192,8 @@ body {
 /* Begin : Advertise section */
 
 #team {
-  background-image: url(../image/section_bac.jpg);
+  background-image: url(../image/section_bac.jpg);  
+  background-repeat: repeat-y;
   background-size: auto;
   position: relative;
 }
@@ -359,6 +370,10 @@ body {
 
 .gibsonbold {
   font-family: "GibsonBold";
+}
+
+.gibsonsemibold {
+  font-family: "GibsonSemiBold";
 }
 
 .norse {
