@@ -72,7 +72,7 @@
           alt=""
         />
       </div>
-      <p class="text-gray-300 text-sm gibson pb-8">
+      <p class="text-gray-300 text-sm gibson pb-8 mx-4">
         @ All Rights Reserved <span class="underline underline-offset-4">Disa Studio</span> 2022 | Site Design by
         <span class="underline underline-offset-4">Disa Software</span>
       </p>
@@ -82,11 +82,12 @@
 
 <script setup>
 const navigation = [
-  { name: "ABOUT", href: "#", current: true },
-  { name: "NEWS", href: "#", current: false },
+  { name: "HOME", href: "#", current: true },  
+  { name: "NEWS", href: "#carousel", current: false },
+  { name: "ABOUT", href: "#explorer", current: true },
   { name: "FAQ", href: "#", current: false },
-  { name: "PRESS", href: "#", current: false },
-  { name: "CONTACT", href: "#", current: false },
+  { name: "PRESS", href: "https://drive.google.com/drive/folders/1EgPEn32PrCrNI3AFRdhTFw91dLYccJzy?usp=share_link", current: false },
+  { name: "CONTACT", href: "mailto:info@thewakegame.com", current: false },
   { name: "BUG TRACKER", href: "#", current: false },
 ];
 </script>
