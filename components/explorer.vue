@@ -3,11 +3,13 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:pt-16">
       <div class="explorer-left text-center sm:text-left mx-5 sm:ml-48">
         <div class="flex justify-center sm:justify-start">
-          <div class="image-wrapper_temp w-11/12 sm:w-10/12">
-            
-            <video id="vid" class="w-full" autoplay muted preload="auto">
+          <div class="image-wrapper_temp w-full">
+            <iframe class="w-full" height="300px"
+              src="https://www.youtube.com/embed/QckpXLHCgG4?loop=1&autoplay=1&mute=1&controls=0&playlist=QckpXLHCgG4" frameborder="0" allowfullscreen>
+            </iframe> 
+            <!-- <video id="vid" class="w-full" autoplay muted preload="auto">
               <source src="~/assets/image/advertise.mp4" type="video/mp4" />
-            </video>
+            </video> -->
           </div>
         </div>
         <p class="text-2xl mt-[30px] mb-[20px] gibsonbold">

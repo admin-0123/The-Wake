@@ -16,7 +16,43 @@
         </ul>
       </div>
       <div class="py-4">
-        <button>
+        <a href="https://twitter.com/Twakegame" target="_blank">
+            <button>
+              <font-awesome-icon class="text-xl m-2 text-white" icon="fa-brands fa-twitter" />
+            </button>
+          </a>
+
+          <a href="https://t.me/thewakegame" target="_blank">
+            <button>
+              <font-awesome-icon class="text-xl m-2 text-white" icon="fa-brands fa-telegram" />
+            </button>
+          </a>
+
+          <a href="http://discord.gg/nwtq7AZjsy" target="_blank">
+            <button>
+              <font-awesome-icon class="text-xl m-2 text-white" icon="fa-brands fa-discord" />
+            </button>
+          </a>
+
+          <a href="https://www.linkedin.com/company/thewakegame/" target="_blank">
+            <button>
+              <font-awesome-icon class="text-xl m-2 text-white" icon="fa-brands fa-linkedin-in" />
+            </button>
+          </a>
+
+          <a href="http://youtube.com/@thewake1649" target="_blank">
+            <button>
+              <font-awesome-icon class="text-xl m-2 text-white" icon="fa-brands fa-youtube" />
+            </button>
+          </a>
+
+          <a href="http://twitch.tv/thewakegame" target="_blank">
+            <button>
+              <font-awesome-icon class="text-xl m-2 text-white" icon="fa-brands fa-twitch" />
+            </button>
+          </a>
+
+        <!-- <button>
           <font-awesome-icon
             class="text-xl m-2 text-white"
             icon="fa-brands fa-twitter"
@@ -63,7 +99,7 @@
             class="text-xl m-2 text-white"
             icon="fa-brands fa-meetup"
           />
-        </button>
+        </button> -->
       </div>
       <div id="footer_line">
         <img

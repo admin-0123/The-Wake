@@ -164,7 +164,7 @@ const navigation = [
   { name: "HOME", href: "#", current: true },
   { name: "NEWS", href: "#carousel", current: false },
   { name: "ABOUT", href: "#explorer", current: false },
-  { name: "EXPLORER", href: "#advertise", current: false },
+  { name: "EXPLORE", href: "#advertise", current: false },
   { name: "TEAM", href: "#team", current: false },
   { name: "PARTNERS", href: "#partners", current: false },
 ];

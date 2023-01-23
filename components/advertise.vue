@@ -15,7 +15,7 @@
             </div>
           </div>
           <div class="col-span-1 sm:col-span-3 mx-10 mt-0 sm:-mt-20 sm:mx-0 pr-0 sm:pr-12" id="advertise-right">
-            <p class="text-4xl sm:text-6xl text-white gibsonbold">EXPLORER</p>
+            <p class="text-4xl sm:text-6xl text-white gibsonbold">EXPLORE</p>
             <p class="text-gray-300 mt-4 mb-12 gibson">
               You can explore nine realms in The Wake: Niflheim, Muspelheim, Asgard, Midgard, Jotunheim, Vanaheim,
               Alfheim, Svartalfheim, Helheim.
