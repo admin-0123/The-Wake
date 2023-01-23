@@ -50,25 +50,25 @@
           class="hidden sm:block absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
         >
           <a
-            href="https://twitter.com/Twakegame" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            href="https://twitter.com/Twakegame" target="_blank" class="rounded-full bg-black p-2 text-gray-200 hover:text-white"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-twitter" />
           </a>
 
           <a            
-            href="http://discord.gg/nwtq7AZjsy" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            href="http://discord.gg/nwtq7AZjsy" target="_blank" class="rounded-full bg-black p-2 text-gray-200 hover:text-white"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-discord" />
           </a>
 
           <a            
-            href="https://t.me/thewakegame" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            href="https://t.me/thewakegame" target="_blank" class="rounded-full bg-black p-2 text-gray-200 hover:text-white"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-telegram" />
           </a>
 
           <a
-            href="http://youtube.com/@thewake1649" class="rounded-full bg-black p-2 text-gray-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+            href="http://youtube.com/@thewake1649" target="_blank" class="rounded-full bg-black p-2 text-gray-200 hover:text-white"
           >
             <font-awesome-icon class="text-xl" icon="fa-brands fa-youtube" />
           </a>

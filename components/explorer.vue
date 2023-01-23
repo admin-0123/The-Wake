@@ -1,10 +1,10 @@
 <template>
   <div id="explorer">
     <div class="grid grid-cols-1 sm:grid-cols-2 sm:pt-16">
-      <div class="explorer-left text-center sm:text-left mx-5 sm:ml-48">
+      <div class="explorer-left text-left sm:text-left mx-10 sm:ml-48">
         <div class="flex justify-center sm:justify-start">
           <div class="image-wrapper_temp w-full">
-            <iframe class="w-full" height="300px"
+            <iframe class="w-full" height="200px"
               src="https://www.youtube.com/embed/QckpXLHCgG4?loop=1&autoplay=1&mute=1&controls=0&playlist=QckpXLHCgG4" frameborder="0" allowfullscreen>
             </iframe> 
             <!-- <video id="vid" class="w-full" autoplay muted preload="auto">
@@ -25,7 +25,7 @@
           very first moment he opened his eyes...
         </p>
         <a
-          href="#footer" 
+          href="#advertise" 
         >
           <button class="primary-button-white tracking-widest text-2xl px-16 py-4 my-4">
             Explore

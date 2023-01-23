@@ -109,8 +109,10 @@
         />
       </div>
       <p class="text-gray-300 text-sm gibson pb-8 mx-4">
-        @ All Rights Reserved <span class="underline underline-offset-4">Disa Studio</span> 2022 | Site Design by
-        <span class="underline underline-offset-4">Disa Software</span>
+        @ All Rights Reserved 
+        <a href="https://www.disasoftware.com" target="_blank"> <span class="underline underline-offset-4">Disa Studio</span></a> 
+        2022 | Site Design by
+        <a href="https://www.disasoftware.com" target="_blank"><span class="underline underline-offset-4">Disa Software</span></a>
       </p>
     </div>
   </div>
