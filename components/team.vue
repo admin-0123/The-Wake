@@ -112,7 +112,10 @@
         </div>
 
         <div class="col-span-6 sm:col-span-2">
-          <div class="px-4 sm:px-4 py-3">           
+          <div class="px-4 sm:px-4 py-3">
+            <div class="photo-wrapper">
+              <img src="~/assets/image/team/team8.jpg" class="w-full h-full" alt="" />
+            </div>
             <a href="https://www.linkedin.com/in/seito-solano-a48824175/" target="_blank" class="z-10 relative">
                 <p class="text-sm sm:text-lg text-center gibsonsemibold mt-4">
                   SEITO SOLANO<font-awesome-icon icon="fab fa-linkedin-in"
