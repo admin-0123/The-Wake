@@ -194,7 +194,7 @@ body {
 #team {
   background-image: url(../image/section_bac.jpg);  
   background-repeat: repeat-y;
-  background-size: auto;
+  background-size: cover;
   position: relative;
 }
 
