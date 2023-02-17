@@ -169,3 +169,5 @@ const navigation = [
   { name: "PARTNERS", href: "#partners", current: false },
 ];
 </script>
+
+

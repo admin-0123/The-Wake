@@ -405,3 +405,10 @@ body {
 }
 /* End : Footer component */
 
+.faq_group_border {
+  border-color: #333;
+}
+
+.faq_item_border {
+  border-color: #9f0d08;
+}
