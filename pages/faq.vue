@@ -1,7 +1,7 @@
 <template>
   <FaqHeader />
   <section class="relative pt-24 pb-28 bg-blueGray-50 overflow-hidden">
-  <img class="absolute bottom-0 left-1/2 transform -translate-x-1/2" src="flaro-assets/images/faqs/gradient.svg" alt="">
+  <!-- <img class="absolute bottom-0 left-1/2 transform -translate-x-1/2" src="flaro-assets/images/faqs/gradient.svg" alt=""> -->
   <div class="relative container px-4 mx-auto">
     <div class="md:max-w-4xl mx-auto">
       <!-- <p class="mb-7 text-sm text-indigo-600 text-center font-semibold uppercase tracking-px">Have any questions?</p> -->
