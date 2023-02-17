@@ -120,7 +120,7 @@
 
 <script setup>
 const navigation = [
-  { name: "HOME", href: "#", current: true },  
+  { name: "HOME", href: "/", current: true },  
   { name: "NEWS", href: "#carousel", current: false },
   { name: "ABOUT", href: "#explorer", current: true },
   { name: "FAQ", href: "/faq", current: false },
