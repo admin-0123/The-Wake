@@ -8,7 +8,7 @@
     </video>
     
     <div class="text-center mb-8 sm:mb-0">
-      <p class="text-primary text-5xl mb-4 sm:text-7xl font-bold drop-shadow-[0_5px_5px_rgba(0,0,0,1)]">BUILD. DEFEAT.OWN</p>
+      <p class="text-primary text-5xl mb-4 sm:text-7xl font-bold drop-shadow-[0_5px_5px_rgba(0,0,0,1)]">BUILD.DEFEAT.OWN</p>
       <p class="text-white-400 text-5xl mb-16 sm:text-5xl tracking-widest norse tracking-[.1em]">TRY OUR DEMOS NOW!</p>
       <div class="flex">
         <div class="mx-6 banner-item-group">

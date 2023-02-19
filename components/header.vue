@@ -76,11 +76,11 @@
           <!-- Profile dropdown -->
           <!-- class="relative inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" -->
           
-          <a href="" class="primary-button ml-4 px-4 py-2">
-            <span>BECOME AMBASSADOR</span>
+          <a href="https://forms.gle/8681121m532JfkKe8" class="primary-button ml-4 px-4 py-2">
+            <span>BECOME AN AMBASSADOR</span>
           </a>
-          <a href="https://forms.gle/cfpWisFSEzBhw8WJ6" target="_blank" class="primary-button ml-4 px-4 py-2">
-            <span>REGISTER THE TOURNAMENT</span>
+          <a href="https://forms.gle/ZwULaMBdFi6RCWQN9" target="_blank" class="primary-button ml-4 px-4 py-2">
+            <span>UPCOMING TOURNAMENT</span>
           </a>
         </div>
       </div>
