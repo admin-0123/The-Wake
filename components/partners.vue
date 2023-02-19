@@ -67,7 +67,7 @@
         Organizations or individuals who are interested in partnering with us to support the development and promotion
         of <span class="gibsonbold">The Wake.</span> As a partner, you will have access to exclusive resources and opportunities to promote your brand.
       </p>
-      <button class="primary-button-white text-lg gibsonbold px-8 py-3 mb-20">BE PARTNER</button>
+      <a href="mailto:info@thewakegame.com" class="primary-button-white text-lg gibsonbold px-8 py-3 mb-20">BECOME A PARTNER</a>
     </div>
   </div>
 </template>
