@@ -27,37 +27,15 @@
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide>
-        <img src="~/assets/image/slider/card1.jpg" />        
+      <swiper-slide v-for="(card, index) in sliders" :key="index">
+        <img :src="getImageUrl(card.attributes.url)" />        
         <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
       </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/card2.jpg" />        
-        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/card3.jpg" />        
-        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/card4.jpg" />        
-        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/card5.jpg" />        
-        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
-      </swiper-slide>
-      <swiper-slide>
-        <img src="~/assets/image/slider/card6.jpg" />
-        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
-      </swiper-slide> 
-      <swiper-slide>
-        <img src="~/assets/image/slider/card7.jpg" />
-        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
-      </swiper-slide>   
     </swiper>
   </div>
 </template>
+
+
 <script>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -73,15 +51,49 @@ import "~/assets/css/slider.css";
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
+
 export default {
   components: {
     Swiper,
     SwiperSlide,
   },
+  data(){
+    return {
+      sliders: [],
+      config: useRuntimeConfig(),
+    }
+  },
+  methods: {
+    async fetch () {
+      try {
+        const config = useRuntimeConfig()
+        const response = await fetch( config.public.API_ENDPOINT + '/slider?populate=media')
+        .catch((err) => {
+          console.log(err)
+          return;
+        })
+        this.sliders = await response.json();
+        console.log("sliders", this.sliders.data.attributes.media.data)
+        this.sliders = this.sliders.data.attributes.media.data;
+      }
+      catch (err) {
+        console.log(err)
+        return;
+      }
+      return;
+  },
+  getImageUrl(url) {
+      return this.config.public.BACKEND_ENDPOINT + url;
+    }
+  },
+  
   setup() {
     return {
       modules: [EffectCoverflow, Pagination],
     };
   },
+  created() {
+    this.fetch();
+  }
 };
 </script>
