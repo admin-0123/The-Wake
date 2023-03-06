@@ -11,4 +11,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ['@heroicons/vue']
   },
+  runtimeConfig: {
+		public: {
+			API_ENDPOINT: process.env.API_ENDPOINT,
+      BACKEND_ENDPOINT: process.env.BACKEND_ENDPOINT
+		}
+	}
 })
