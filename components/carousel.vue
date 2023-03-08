@@ -27,10 +27,34 @@
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide v-for="(card, index) in sliders" :key="index">
-        <img :src="getImageUrl(card.attributes.url)" />        
+    <swiper-slide>
+        <img src="~/assets/image/slider/card1.jpg" />        
         <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
       </swiper-slide>
+      <swiper-slide>
+        <img src="~/assets/image/slider/card2.jpg" />        
+        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
+      </swiper-slide>
+      <swiper-slide>
+        <img src="~/assets/image/slider/card3.jpg" />        
+        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
+      </swiper-slide>
+      <swiper-slide>
+        <img src="~/assets/image/slider/card4.jpg" />        
+        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
+      </swiper-slide>
+      <swiper-slide>
+        <img src="~/assets/image/slider/card5.jpg" />        
+        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
+      </swiper-slide>
+      <swiper-slide>
+        <img src="~/assets/image/slider/card6.jpg" />
+        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
+      </swiper-slide> 
+      <swiper-slide>
+        <img src="~/assets/image/slider/card7.jpg" />
+        <!-- <button class="absolute bottom-10 right-5 bg-[#ff0209] hover:bg-red-700 rounded text-white py-2 px-6 bottom-0.5 right-0.5">More <font-awesome-icon icon="fa-solid fa-arrow-right-long" class="px-1" /></button> -->
+      </swiper-slide>   
     </swiper>
   </div>
 </template>
